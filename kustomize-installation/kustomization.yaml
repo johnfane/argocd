@@ -6,3 +6,5 @@ resources:
   - github.com/argoproj/argo-cd/manifests/ha/cluster-install?ref=v2.6.8
   - resources/namespace.yaml
 
+patchesStrategicMerge:
+  - patches/argocd-cm.yaml
