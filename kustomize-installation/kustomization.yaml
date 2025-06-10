@@ -11,3 +11,4 @@ patchesStrategicMerge:
   - patches/argocd-server-deployment.yaml
   - patches/argocd-repo-server-deployment.yaml
   - patches/argocd-application-controller-statefulset.yaml
+  - patches/argocd-istio.yaml
