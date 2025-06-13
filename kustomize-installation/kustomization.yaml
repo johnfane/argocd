@@ -8,7 +8,7 @@ resources:
   - resources/namespace.yaml
 
 patches:
-- path: argocd-dex-server.yaml
+- path: patches/argocd-dex-server.yaml
 #- path: patches/argocd-cm.yaml
 #- path: patches/argocd-cmd-params-cm.yaml
 #- path: patches/argocd-server-deployment.yaml
