@@ -10,7 +10,7 @@ resources:
 patches:
 - path: patches/argocd-dex-server.yaml
 #- path: patches/argocd-cm.yaml
-#- path: patches/argocd-cmd-params-cm.yaml
+- path: patches/argocd-cmd-params-cm.yaml
 #- path: patches/argocd-server-deployment.yaml
 #- path: patches/argocd-repo-server-deployment.yaml
 #- path: patches/argocd-application-controller-statefulset.yaml
